@@ -1,0 +1,32 @@
+p {
+    /* color: chartreuse; */
+    text-transform: capitalize;
+}
+
+.text {
+    text-decoration: overline;
+}
+
+#textID {
+    text-decoration: underline;
+}
+
+.book {
+    color: darkorange;
+}
+
+.box-model {
+    border: 10px solid red;
+    /* padding: 50px; */
+    /* padding: 20px 100px; */
+    padding: 5px 60px 150px 200px;
+    margin: 50px;
+}
+
+.bg {
+    height: 600px;
+    background: url("images/Gemini_Generated_Image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: right ; */
+}
