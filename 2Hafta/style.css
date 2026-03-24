@@ -1,0 +1,103 @@
+* {
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+nav ul li:nth-child(5) {
+    border: 1px solid purple;
+    border-radius: 50%;
+    padding: 5px 7px;
+    background-color: purple;
+    color: white;
+}
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+
+}
+
+.entry {
+    background-image: url("images/bg-circle-effect.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+
+.entry-left {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.entry-left h1 {
+    font-size: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.entry-left p {
+    max-width: 450px;
+}
+
+.entry-left button {
+    width: fit-content;
+    background-color: purple;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    text-transform: capitalize;
+    border: none;
+    cursor: pointer;
+}
+
+.second-content {
+    background-color: #F8F9FC;
+    height: 100vh;
+    padding: 60px 0;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.second-title {
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.second-columns {
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.box{
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 30px 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
